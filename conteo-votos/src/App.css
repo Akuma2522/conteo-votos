@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.candidatos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.candidatos div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+
+.resultados {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.separador {
+  width: 50%;
+  height: 100%;
+  }
+
+.filtro, .total-votos, .votos-individuales {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.filtro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.total-votos {
+  flex: 2;
+  text-align: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.votos-individuales {
+  flex: 3;
+  text-align: left;
+}
